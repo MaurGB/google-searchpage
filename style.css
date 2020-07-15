@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    border-bottom: 1px solid #ebebeb;
+}
+.logo {
+    display: inline-block;
+    margin-top: 28px;
+    margin-left: 24px;
+    width: 92px;
+    height: auto;
+}
+#log {
+    width: 100%;
+    height: auto;
+}
+
+.search {
+    display: inline-block;
+    margin-left: 44px;
+    position: relative;
+    top: -13px;
+}
+
+.form {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 692px;
+    height: 46px;
+}
+.form:hover{box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);}
+
+#cuadro {
+    display: inline-block;
+    border: none;
+    height: 35px;
+    width: 550px;
+    margin: auto;
+    position: relative;
+    left: 42px;
+    top: 4px;
+
+}
+.lupa {
+    display: inline-block;
+    position: relative;
+    left: 92px;
+    top: 8px;
+}
+.apps {
+    float: right;
+    position: relative;
+    right: 40px;
+    top: 35px;
+
+}
+#icon {
+    width: 100%;
+    height: auto;
+}
+.app {
+    display: inline-block;
+    width: 25px;
+    height: auto;
+}
+.login {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    bottom: 5px;
+
+}
+#but {
+    padding: 9px 23px;
+    background-color: #1a73e8;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#but:hover { background-color: #2b7de9; box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);}
+
+.nav {
+    position: relative;
+    left: 160px;
+    top: 5px;
+}
+
+.pel {
+        display: inline-block;
+}
+.pel a {
+    border: none;
+    padding: 10px 7px;
+    font-size: small;
+    text-decoration: none;
+    color: #5f6368;
+    margin-left: 6px;
+}
+.pel a:link { cursor: pointer;}
+
+#tod { 
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+}
+
+.i1 {
+    display: inline-block;
+    width: 17px;
+    height: auto;
+}
+.i2 {
+    position: relative;
+    top: 5px;
+    width: 100%;
+    height: auto;
+
+}
+
